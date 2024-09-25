@@ -9,24 +9,24 @@ const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
   return (
     <section>
-      <Element name="pricing">
+      <Element name="preturi">
         <div className="container">
           <div className="max-w-960 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16">
             <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
-              Flexible princing for teams of all sizes
+              Alege planul perfect pentru tine
             </h3>
             <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
                 className={clsx("pricing-head_btn", monthly && "text-p4")}
                 onClick={() => setMonthly(true)}
               >
-                Monthly
+                Lunar
               </button>
               <button
                 className={clsx("pricing-head_btn", !monthly && "text-p4")}
                 onClick={() => setMonthly(false)}
               >
-                Annual
+                Anual
               </button>
 
               <div
@@ -102,7 +102,7 @@ const Pricing = () => {
                         index === 1 ? "text-p3" : "text-p4",
                       )}
                     >
-                      ${" "}
+                      RON{" "}
                       <CountUp
                         start={plan.priceMonthly}
                         end={monthly ? plan.priceMonthly : plan.priceYearly}
@@ -112,7 +112,7 @@ const Pricing = () => {
                       />
                     </div>
                     <div className="small-1 relative top-3 ml-1 uppercase">
-                      / mo
+                      / lună
                     </div>
                   </div>
                 </div>
@@ -143,12 +143,12 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button icon={plan.icon}>Get Started</Button>
+                  <Button icon={plan.icon}>Începe acum</Button>
                 </div>
 
                 {index === 1 && (
                   <p className="small-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
-                    Limited time offer
+                    Cel mai popular
                   </p>
                 )}
               </div>

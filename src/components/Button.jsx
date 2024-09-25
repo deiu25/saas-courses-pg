@@ -1,5 +1,7 @@
 import clsx from "clsx";
 import { Marker } from "./Marker.jsx";
+import { ButtonPropTypes } from "../types/PropTypes.js";
+
 
 const Button = ({
   icon,
@@ -32,11 +34,12 @@ const Button = ({
       <span className="glow-before glow-after" />
     </>
   );
+
   return href ? (
     <a
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       href={href}
     >
@@ -46,7 +49,7 @@ const Button = ({
     <button
       className={clsx(
         "relative p-0.5 g5 rounded-2xl shadow-500 group",
-        containerClassName,
+        containerClassName
       )}
       onClick={onClick}
     >
@@ -54,4 +57,7 @@ const Button = ({
     </button>
   );
 };
+
+Button.propTypes = ButtonPropTypes;
+
 export default Button;

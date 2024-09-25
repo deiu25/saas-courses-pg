@@ -2,23 +2,23 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Metode de învățare interactive",
+    title: "Experiențe de studiu personalizate",
+    text: "Alege dintr-o gamă diversificată de cursuri create pentru a te ajuta să înveți în ritmul tău. Fiecare lecție include video-uri detaliate, exerciții interactive și proiecte reale, pentru a transforma teoria în practică. Structura flexibilă a cursurilor îți permite să te concentrezi pe ceea ce contează pentru tine și să aplici cunoștințele în mod practic, la propriul tău ritm.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Începe acum",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Accesibil oricând, oriunde",
+    title: "Învățare flexibilă pe toate dispozitivele",
+    text: "Accesează cursurile noastre de pe orice dispozitiv, fără limite. Platforma noastră este complet optimizată pentru telefoane, tablete și calculatoare, astfel încât poți învăța oricând, oriunde. Nu trebuie să îți faci griji că pierzi progresul, totul este sincronizat automat, pentru ca tu să continui exact de unde ai rămas, indiferent de locul în care te afli.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Explorează cursurile",
     },
   },
 ];
@@ -27,100 +27,37 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Învățare mereu relevantă",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Ajutor rapid și eficient",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Certificat pentru fiecare curs",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
-  },
-];
-
-export const faq = [
-  {
-    id: "0",
-    question: "How easy is it to setup Xora?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "1",
-    question: "Can I integrate Xora with other platforms?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "2",
-    question: "How often do you add new content?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "3",
-    question: "What your refund policy?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "4",
-    question: "Do you have corporate plans?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "5",
-    question: "What happens when I’m out of storage?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "9",
-    question: "I’m locked out of my account what do I do?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+    title: "Învățare în ritmul tău",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    title: "Basic",
+    priceMonthly: 49,
+    priceYearly: 499,
+    caption: "Ideal pentru începători",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "Acces la 10 cursuri",
+      "Suport prin email",
+      "Certificat de finalizare",
+      "Acces pe 1 dispozitiv",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
@@ -128,14 +65,14 @@ export const plans = [
   {
     id: "1",
     title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
-    caption: "Most popular plan",
+    priceMonthly: 99,
+    priceYearly: 999,
+    caption: "Pentru utilizatori avansați",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Acces la 50 cursuri",
+      "Suport prin chat",
+      "Certificat de finalizare",
+      "Acces pe 3 dispozitive",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
@@ -143,68 +80,121 @@ export const plans = [
   {
     id: "2",
     title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    priceMonthly: 149,
+    priceYearly: 1499,
+    caption: "Pentru învățare intensivă",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Acces nelimitat",
+      "Suport dedicat 24/7",
+      "Certificat avansat",
+      "Acces pe 5 dispozitive",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
   },
 ];
 
+export const faq = [
+  {
+    "id": 0,
+    "question": "Cum pot accesa cursurile după înscriere?",
+    "answer": "După înscriere, vei primi un email cu instrucțiuni pentru accesarea platformei. Poți accesa cursurile direct din contul tău, pe orice dispozitiv."
+  },
+  {
+    "id": 1,
+    "question": "Există o perioadă de încercare gratuită?",
+    "answer": "Nu oferim o perioadă de încercare gratuită, dar poți vizualiza mostre de cursuri pentru a vedea dacă sunt potrivite pentru tine."
+  },
+  {
+    "id": 2,
+    "question": "Ce se întâmplă dacă nu finalizez cursul?",
+    "answer": "Poți relua cursul în orice moment. Nu există un termen limită pentru finalizare, iar progresul tău este salvat automat."
+  },
+  {
+    "id": 3,
+    "question": "Cum primesc certificatul de finalizare?",
+    "answer": "Certificatul este generat automat după finalizarea cu succes a cursului și poate fi descărcat direct din contul tău."
+  },
+  {
+    "id": 4,
+    "question": "Cursurile sunt accesibile pe mobil?",
+    "answer": "Da, platforma noastră este optimizată pentru dispozitive mobile, astfel încât poți învăța oriunde, oricând."
+  },
+  {
+    "id": 5,
+    "question": "Ce metode de plată acceptați?",
+    "answer": "Acceptăm plăți prin card de credit, debit, și PayPal. Toate plățile sunt securizate prin metode avansate de criptare."
+  },
+  {
+    "id": 6,
+    "question": "Pot accesa mai multe cursuri simultan?",
+    "answer": "Da, poți accesa și parcurge mai multe cursuri simultan, gestionându-ți progresul pentru fiecare în parte."
+  },
+  {
+    "id": 7,
+    "question": "Cursurile includ suport de la instructori?",
+    "answer": "Da, în funcție de planul ales, vei avea acces la suport prin email sau chat din partea instructorilor noștri."
+  },
+  {
+    "id": 8,
+    "question": "Pot cere rambursarea banilor dacă nu sunt mulțumit?",
+    "answer": "Oferim o garanție de rambursare a banilor în primele 14 zile dacă nu ești mulțumit de cursul achiziționat."
+  },
+  {
+    "id": 9,
+    "question": "Cum îmi pot actualiza abonamentul?",
+    "answer": "Îți poți actualiza abonamentul din contul tău, trecând de la planul lunar la cel anual sau invers, oricând dorești."
+  }
+];
+
 export const testimonials = [
   {
-    id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
+    id: 0,
+    name: "Andreea Popescu",
+    role: "UI/UX Designer",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Cursurile sunt extrem de bine structurate și ușor de urmărit. Am învățat foarte multe într-un timp scurt și deja aplic cunoștințele în munca mea.",
   },
   {
-    id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
+    id: 1,
+    name: "Ionel Dinu",
+    role: "Software developer",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "Sunt foarte impresionat de flexibilitatea platformei. Pot să învăț oriunde mă aflu și în ritmul meu. Suportul oferit este de asemenea rapid și util.",
   },
   {
-    id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
+    id: 2,
+    name: "Adriana Neagu",
+    role: "CyberSecurity",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "Instructorii sunt foarte prietenoși și explică totul clar. Suportul tehnic este excelent, iar platforma este ușor de folosit pe toate dispozitivele mele.",
   },
   {
-    id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
+    id: 3,
+    name: "Alina Enescu",
+    role: "Web Developer",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "Mi-a plăcut mult diversitatea cursurilor și faptul că există mereu ceva nou de învățat. Este exact ce aveam nevoie pentru a rămâne competitiv.",
   },
   {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
+    id: 4,
+    name: "Maria Ionescu",
+    role: "Seo",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Certificatul pe care l-am obținut m-a ajutat să îmi dezvolt cariera. Recomand cu încredere platforma tuturor celor care doresc să învețe eficient.",
   },
   {
-    id: "5",
-    name: "Jim Bradley",
+    id: 5,
+    name: "George Vasilescu",
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "Am urmat deja mai multe cursuri și toate au fost la un nivel profesional foarte ridicat. Sistemul de învățare interactivă chiar face diferența.",
   },
 ];
 

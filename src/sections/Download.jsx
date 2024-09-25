@@ -6,7 +6,7 @@ const Download = () => {
   return (
     <section>
       <Element
-        name="download"
+        name="descarca"
         className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
       >
         <div className="container">
@@ -21,8 +21,11 @@ const Download = () => {
                 />
               </div>
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we`ve got you covered
+                Îți aducem cursurile mai aproape de tine! Descarcă aplicația
+                noastră pe telefon sau tabletă și accesează cursurile preferate
+                oriunde te-ai afla. Învață în ritmul tău, chiar și în deplasare,
+                și bucură-te de o experiență de învățare flexibilă și
+                accesibilă.
               </p>
               <ul className="flex flex-wrap items-center gap-6">
                 {links.map(({ id, url, icon }) => (
@@ -50,15 +53,21 @@ const Download = () => {
             </div>
 
             <div className="mb-10 max-md:hidden">
-                <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
-                    <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14">
-                        <span className="download_preview-dot left-6 bg-p2"/>
-                        <span className="download_preview-dot left-11 bg-s3"/>
-                        <span className="download_preview-dot left-16 bg-p1/15"/>
+              <div className="download_preview-before download_preview-after rounded-40 relative w-[955px] border-2 border-s5 p-6">
+                <div className="relative rounded-3xl bg-s1 px-6 pb-6 pt-14">
+                  <span className="download_preview-dot left-6 bg-p2" />
+                  <span className="download_preview-dot left-11 bg-s3" />
+                  <span className="download_preview-dot left-16 bg-p1/15" />
 
-                        <img src="/images/screen.jpg" width={855} height={655} alt="screen" className="rounded-xl"/>
-                    </div>
+                  <img
+                    src="/images/screen.jpg"
+                    width={855}
+                    height={655}
+                    alt="screen"
+                    className="rounded-xl"
+                  />
                 </div>
+              </div>
             </div>
           </div>
 
