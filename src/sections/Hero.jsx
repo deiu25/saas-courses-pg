@@ -17,15 +17,15 @@ const Hero = () => {
               captivantă, accesibilă oricui - fie pentru tine, prietenii sau
               familia ta!
             </p>
-            <LinkScroll to="features" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">Try it now</Button>
+            <LinkScroll to="preturi" offset={-100} spy smooth>
+              <Button icon="/images/zap.svg">Vezi Planurile</Button>
             </LinkScroll>
           </div>
 
-          <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
+          <div className="absolute -top-20 left-[calc(50%-610px)] w-[1800px] pointer-events-none hero-img_res">
             <img
-              src="/images/hero.png"
-              className="size-1230 max-lg:h-auto"
+              src="/images/112.webp"
+              className="max-lg:h-auto"
               alt="hero"
             />
           </div>

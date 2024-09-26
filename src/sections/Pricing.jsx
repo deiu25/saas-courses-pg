@@ -102,7 +102,7 @@ const Pricing = () => {
                         index === 1 ? "text-p3" : "text-p4",
                       )}
                     >
-                      RON{" "}
+                      ${" "}
                       <CountUp
                         start={plan.priceMonthly}
                         end={monthly ? plan.priceMonthly : plan.priceYearly}
@@ -112,7 +112,7 @@ const Pricing = () => {
                       />
                     </div>
                     <div className="small-1 relative top-3 ml-1 uppercase">
-                      / lună
+                      / {monthly ? "lună" : "an"}
                     </div>
                   </div>
                 </div>

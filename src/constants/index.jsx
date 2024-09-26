@@ -50,8 +50,8 @@ export const plans = [
   {
     id: "0",
     title: "Basic",
-    priceMonthly: 49,
-    priceYearly: 499,
+    priceMonthly: 9,
+    priceYearly: 99,
     caption: "Ideal pentru începători",
     features: [
       "Acces la 10 cursuri",
@@ -65,8 +65,8 @@ export const plans = [
   {
     id: "1",
     title: "Overdrive",
-    priceMonthly: 99,
-    priceYearly: 999,
+    priceMonthly: 20,
+    priceYearly: 200,
     caption: "Pentru utilizatori avansați",
     features: [
       "Acces la 50 cursuri",
@@ -80,8 +80,8 @@ export const plans = [
   {
     id: "2",
     title: "Team",
-    priceMonthly: 149,
-    priceYearly: 1499,
+    priceMonthly: 30,
+    priceYearly: 300,
     caption: "Pentru învățare intensivă",
     features: [
       "Acces nelimitat",
